@@ -69,7 +69,7 @@ namespace Seminarium1
 
                 /*ball1.Direction = -ball1.Direction;
                 ball2.Direction = -ball2.Direction;*/
-                System.Diagnostics.Debug.WriteLine("Ball- Time: "(int)ball1.Time+ " Position: " + ball1.Position);
+                System.Diagnostics.Debug.WriteLine("Ball- Time: "+ (int)ball1.Time+ " Position: " + ball1.Position);
                 
                 ball1.Time = 0;
                 ball2.Time = 0;
