@@ -84,8 +84,8 @@ namespace Seminarium1
             ball1.Draw(_spriteBatch);
             ball2.Draw(_spriteBatch);
             _spriteBatch.DrawString(font, "Tid:" + (int)tid, new Vector2(50, 10), Color.Green);
-            _spriteBatch.DrawString(font, "1:" + ball1.Direction, new Vector2(120, 10), Color.Red);
-            _spriteBatch.DrawString(font, "2:" + ball2.Direction, new Vector2(120, 50), Color.Red);
+            _spriteBatch.DrawString(font, "1 - Direction: " + ball1.Direction + " Position "+ball1.Position, new Vector2(120, 10), Color.Red);
+            _spriteBatch.DrawString(font, "2 - Direction: " + ball2.Direction + " Position "+ ball2.Position, new Vector2(120, 50), Color.Red);
             _spriteBatch.End();
             base.Draw(gameTime);
         }
